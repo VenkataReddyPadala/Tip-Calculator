@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <label for="bill" class="labeltext">Bill Total</label>
+        <div class="container">
+            <input type="number" id="bill" placeholder="0.00" class="textbox"  >
+            <span class="dollar-sign">$</span>
+        </div>
+        <label for="tip" class="labeltext">Tip</label>
+        <div class="container">
+            <input type="number" id="tip" placeholder="5" class="textbox" >
+            <span class="percent-sign">%</span>
+        </div>
+        
+        <div class="billsection">
+            <div class="totalpeople">
+                <h4 class="heading">People</h4>
+                <div class="count">
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <h2 class="totalcount">1</h2>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                </div>
+            </div>
+            <div class="amount">
+                <h4 class="heading">Total Per Person</h4>
+                    <h1 class="totalbill"> 0.00</h1>
+                
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
